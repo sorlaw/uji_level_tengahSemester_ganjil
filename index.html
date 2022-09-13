@@ -7,42 +7,106 @@
     <title>main page</title>
     <!-- link css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <!-- end css -->
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header class="mb-5">
         <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container">
+          <div class="container">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+              </form>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                  <a class="nav-link text-white" href="/kemeja.html">Kemeja</a>
-                  <a class="nav-link text-white" href="/sepatu.html">Sepatu</a>
-                  <a class="nav-link text-white" href="/jaket.html">Jaket</a>
-                  <a class="nav-link text-white" href="/celana.html">Celana</a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-center ms-auto mt-2">
+                  <a class="nav-link" href="kemeja.html">Kemeja</a>
+                  <a class="nav-link" href="sepatu.html">Sepatu</a>
+                  <a class="nav-link" href="jaket.html">Jaket</a>
+                  <a class="nav-link" href="celana.html">Celana</a>
                 </div>
               </div>
             </div>
           </nav>
     </header>
     <!-- end header -->
+    <!-- main -->
+    <main class="text-white">
+      <h1 class="text-center m-5">Selamat Datang di TUMA </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 offset-md-1">
+            <h4 class="mb-4 text-capitalize">Apa yang kami jual?</h4>
+            <p class="mb-4">
+              <b>
+              Kami menjual barang-barang berkualitas.Seperti : Kemeja,Sepatu,Jaket, dan Celana
+              </b>
+           </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card p-2 mb-4">
+              <img src="assets/img/kemeja.jpg" class="card-img-top" alt="">
+              <div class="card-body text-black text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-2 mb-4">
+              <img src="assets/img/sepatu.jpg" class="card-img-top" alt="">
+              <div class="card-body text-black text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-2 mb-4">
+              <img src="assets/img/jaket.jpeg" class="card-img-top" alt="">
+              <div class="card-body text-black text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card p-2 mb-4">
+              <img src="assets/img/celana.webp" class="card-img-top" alt="">
+              <div class="card-body text-black text-center">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- end main -->
     <!-- footer -->
-    <footer>
+    <footer class="bg-dark">
         <div class="container">
-            <div class="row p-3">
-                <div class="col-4">
+            <div class="row p-3 text-white d-flex align-items-center">
+                <div class="col-md-4">
                     <p>Nama : Putra Jangjaya</p>
                     <p>Kelas : 12 RPL 1</p>
                     <p>Github : sorlaw</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <p>@RPL1.2022</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <p>Contact</p>
                     <p><i class="fa-solid fa-location-dot"></i> Perumahan citra indah cileungsi</p>
                     <p><i class="fa-sharp fa-solid fa-phone"></i> 08557680585</p>
